@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C370CFBC-36CB-4712-B1E6-9AD91F0B8E6D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Presentacion</RootNamespace>
+    <AssemblyName>Presentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Direcciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Direcciones.designer.cs">
+      <DependentUpon>Direcciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Direcciones_Alta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Direcciones_Alta.designer.cs">
+      <DependentUpon>Direcciones_Alta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Locales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Locales.designer.cs">
+      <DependentUpon>Locales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LocalesListado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocalesListado.designer.cs">
+      <DependentUpon>LocalesListado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MateriasPrimas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MateriasPrimas.designer.cs">
+      <DependentUpon>MateriasPrimas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MateriasPrimasListado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MateriasPrimasListado.designer.cs">
+      <DependentUpon>MateriasPrimasListado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedores.designer.cs">
+      <DependentUpon>Proveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProveedoresListado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProveedoresListado.designer.cs">
+      <DependentUpon>ProveedoresListado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProveedoresModificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProveedoresModificar.designer.cs">
+      <DependentUpon>ProveedoresModificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Roles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Roles.designer.cs">
+      <DependentUpon>Roles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RolesListado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RolesListado.designer.cs">
+      <DependentUpon>RolesListado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RolesModificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RolesModificar.designer.cs">
+      <DependentUpon>RolesModificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioModificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuarioModificar.designer.cs">
+      <DependentUpon>UsuarioModificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuariosListado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsuariosListado.designer.cs">
+      <DependentUpon>UsuariosListado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios_Alta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuarios_Alta.designer.cs">
+      <DependentUpon>Usuarios_Alta.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Direcciones.resx">
+      <DependentUpon>Direcciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Direcciones_Alta.resx">
+      <DependentUpon>Direcciones_Alta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Locales.resx">
+      <DependentUpon>Locales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocalesListado.resx">
+      <DependentUpon>LocalesListado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MateriasPrimas.resx">
+      <DependentUpon>MateriasPrimas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MateriasPrimasListado.resx">
+      <DependentUpon>MateriasPrimasListado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Proveedores.resx">
+      <DependentUpon>Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProveedoresListado.resx">
+      <DependentUpon>ProveedoresListado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProveedoresModificar.resx">
+      <DependentUpon>ProveedoresModificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Roles.resx">
+      <DependentUpon>Roles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RolesListado.resx">
+      <DependentUpon>RolesListado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RolesModificar.resx">
+      <DependentUpon>RolesModificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuarioModificar.resx">
+      <DependentUpon>UsuarioModificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsuariosListado.resx">
+      <DependentUpon>UsuariosListado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuarios_Alta.resx">
+      <DependentUpon>Usuarios_Alta.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capa de Negocio\Capa de Negocio.csproj">
+      <Project>{532d73a8-6673-4aa9-a733-488854672f04}</Project>
+      <Name>Capa de Negocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capa Entidad\Capa Entidad.csproj">
+      <Project>{c3ddc4a8-53fa-4a64-9ba1-5bf9b426ccd4}</Project>
+      <Name>Capa Entidad</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

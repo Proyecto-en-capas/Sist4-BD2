@@ -1,0 +1,2 @@
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Capa de Negocio\obj\Debug\Capa de Negocio.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Capa de Negocio\obj\Debug\Capa de Negocio.csproj.CoreCompileInputs.cache

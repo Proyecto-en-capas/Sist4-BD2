@@ -1,0 +1,9 @@
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Capa de Datos\bin\Debug\Capa de Datos.dll
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Capa de Datos\bin\Debug\Capa de Datos.pdb
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Capa de Datos\bin\Debug\Capa Entidad.dll
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Capa de Datos\bin\Debug\Capa Entidad.pdb
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Capa de Datos\obj\Debug\Capa de Datos.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Capa de Datos\obj\Debug\Capa de Datos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Capa de Datos\obj\Debug\Capa de Datos.csproj.CopyComplete
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Capa de Datos\obj\Debug\Capa de Datos.dll
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Capa de Datos\obj\Debug\Capa de Datos.pdb
