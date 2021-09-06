@@ -5,7 +5,7 @@ using System.Text;
 using System.Data;
 using System.Data.SqlClient;
 using Capa_Entidad;
-
+//prueba 2
 //using System.Windows.Forms;
 
 namespace Capa_de_Datos
