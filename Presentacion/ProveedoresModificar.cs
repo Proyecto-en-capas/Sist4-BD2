@@ -6,8 +6,11 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Capa_de_Negocio;
+using Capa_Entidad;
+using Capa_de_Datos;
 
-namespace Fabrizzi_TP_Integrador
+namespace Presentacion
 {
     public partial class ProveedoresModificar : Form
     {

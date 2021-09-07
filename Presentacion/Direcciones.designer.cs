@@ -1,7 +1,7 @@
-﻿using Capa_Entidad;
-using Capa_de_Negocio;
+﻿//using Capa_Entidad;
+//using Capa_de_Negocio;
 
-namespace Fabrizzi_TP_Integrador
+namespace Presentacion
 {
     public partial class Direcciones
     {

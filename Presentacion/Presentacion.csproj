@@ -94,6 +94,7 @@
     <Compile Include="Principal.designer.cs">
       <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Proveedores.cs">
       <SubType>Form</SubType>
@@ -223,6 +224,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Capa de Datos\Capa de Datos.csproj">
+      <Project>{d102dabd-3036-4e48-b2fd-7f2902590a37}</Project>
+      <Name>Capa de Datos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Capa de Negocio\Capa de Negocio.csproj">
       <Project>{532d73a8-6673-4aa9-a733-488854672f04}</Project>
       <Name>Capa de Negocio</Name>

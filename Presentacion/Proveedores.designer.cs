@@ -1,12 +1,11 @@
 ﻿
 
-using Capa_Entidad;
-using Capa_de_Negocio;
+//using Capa_Entidad;
+//using Capa_de_Negocio;
 
 namespace Presentacion
-
 {
-   public partial class Proveedores
+    public partial class Proveedores
     {
         /// <summary>
         /// Required designer variable.

@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Data;
 using System.Data.SqlClient;
-using Capa_Entidad;
-//prueba 2
 //using System.Windows.Forms;
+using Capa_Entidad;
 
 namespace Capa_de_Datos
 {
@@ -40,7 +39,7 @@ namespace Capa_de_Datos
             }
             catch (Exception ex)
             {
-              //  MessageBox.Show(ex.Message);
+               // MessageBox.Show(ex.Message);
 
             }
 

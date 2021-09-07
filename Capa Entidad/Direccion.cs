@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Capa_Entidad
 {
-    class Direccion
+    public class Direccion
     {
         public String dir_IdDir { get; set; }
         public String dir_Calle { get; set; }

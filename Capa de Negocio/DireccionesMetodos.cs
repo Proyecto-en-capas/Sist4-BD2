@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 using Capa_de_Datos;
@@ -19,7 +18,7 @@ namespace Capa_de_Negocio
                 //var idMax = ultimoId();
 
                 var sel = "set dateformat dmy insert into Direcciones (dir_IdDir, dir_Calle,dir_Numero ,dir_Piso ,dir_Departamento, dir_Local , dir_Localidad,dir_Provincia, dir_CP) " +
-                   " VALUES ( '" + dir.dir_IdDir + "','" + dir.dir_Calle + "','" + dir.dir_Numero + "','" + dir.dir_Piso + "', '" + dir.dir_Departamento + "', '" + dir.dir_Local + "','" + dir.dir_Localidad + "', '" + dir.dir_Provincia + "','" + dir.dir_CP + "')";
+                   " VALUES ( '" + dir.dir_IdDir + "','" + dir.dir_Calle + "','" + dir.dir_Numero + "','" + dir.dir_Piso + "', '" + dir.dir_Departamento + "', '" +dir.dir_Local+ "','" + dir.dir_Localidad + "', '" + dir.dir_Provincia + "','" +dir.dir_CP +"')";
                 SqlCommand com = new SqlCommand(sel, conectar());
 
                 com.ExecuteNonQuery();
@@ -102,7 +101,7 @@ namespace Capa_de_Negocio
 
         public DataTable ConsultarDireccion(String idDir)
         {
-            var sqlStr = "select  dir_Calle , dir_Numero, dir_Piso , dir_Departamento, dir_Local, dir_Localidad , dir_Provincia , dir_CP from Direcciones where dir_IdDir ='" + idDir + "' ";
+            var sqlStr = "select  dir_Calle , dir_Numero, dir_Piso , dir_Departamento, dir_Local, dir_Localidad , dir_Provincia , dir_CP from Direcciones where dir_IdDir ='"+idDir+"' ";
             var da = new SqlDataAdapter(sqlStr, conectar());
             var ds = new DataSet();
             da.Fill(ds);
@@ -117,7 +116,7 @@ namespace Capa_de_Negocio
             {
                 //var idMax = ultimoId();
 
-                var sel = "delete from Direcciones where dir_IdDir = '" + dir + "'";
+                var sel = "delete from Direcciones where dir_IdDir = '"+ dir+"'";
                 SqlCommand com = new SqlCommand(sel, conectar());
 
                 com.ExecuteNonQuery();
@@ -137,7 +136,7 @@ namespace Capa_de_Negocio
             {
                 //var idMax = ultimoId();
 
-                var sel = "set dateformat dmy update Direcciones set dir_Calle = '" + dir.dir_Calle + "',dir_Numero= " + dir.dir_Numero + " ,dir_Piso = " + dir.dir_Piso + " ,dir_Departamento = '" + dir.dir_Departamento + "', dir_Local = '" + dir.dir_Local + "', dir_Localidad ='" + dir.dir_Localidad + "' ,dir_Provincia = '" + dir.dir_Provincia + "', dir_CP = " + dir.dir_CP + " where dir_IdDir = '" + dir.dir_IdDir + "'";
+                var sel = "set dateformat dmy update Direcciones set dir_Calle = '" + dir.dir_Calle+"',dir_Numero= "+dir.dir_Numero+" ,dir_Piso = "+dir.dir_Piso+" ,dir_Departamento = '"+dir.dir_Departamento+"', dir_Local = '"+dir.dir_Local+"', dir_Localidad ='"+dir.dir_Localidad+"' ,dir_Provincia = '"+dir.dir_Provincia+"', dir_CP = "+dir.dir_CP+" where dir_IdDir = '"+dir.dir_IdDir+"'";
                 SqlCommand com = new SqlCommand(sel, conectar());
 
                 com.ExecuteNonQuery();

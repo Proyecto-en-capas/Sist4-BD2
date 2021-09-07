@@ -7,20 +7,27 @@ C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacio
 C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.pdb
-C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Fabrizzi_TP_Integrador.Direcciones.resources
-C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Fabrizzi_TP_Integrador.Direcciones_Alta.resources
-C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Fabrizzi_TP_Integrador.Locales.resources
-C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Fabrizzi_TP_Integrador.LocalesListado.resources
-C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Fabrizzi_TP_Integrador.Login.resources
-C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Fabrizzi_TP_Integrador.MateriasPrimas.resources
-C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Fabrizzi_TP_Integrador.MateriasPrimasListado.resources
-C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Fabrizzi_TP_Integrador.F_Principal.resources
-C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Fabrizzi_TP_Integrador.Proveedores.resources
-C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Fabrizzi_TP_Integrador.ProveedoresListado.resources
-C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Fabrizzi_TP_Integrador.ProveedoresModificar.resources
-C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Fabrizzi_TP_Integrador.Roles.resources
-C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Fabrizzi_TP_Integrador.RolesListado.resources
-C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Fabrizzi_TP_Integrador.RolesModificar.resources
-C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Fabrizzi_TP_Integrador.UsuarioModificar.resources
-C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Fabrizzi_TP_Integrador.UsuariosListado.resources
-C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Fabrizzi_TP_Integrador.Usuarios_Alta.resources
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.Direcciones.resources
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.Direcciones_Alta.resources
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.Locales.resources
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.LocalesListado.resources
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.Login.resources
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.MateriasPrimas.resources
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.MateriasPrimasListado.resources
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.F_Principal.resources
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.Proveedores.resources
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.ProveedoresListado.resources
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.ProveedoresModificar.resources
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.Roles.resources
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.RolesListado.resources
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.RolesModificar.resources
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.UsuarioModificar.resources
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.UsuariosListado.resources
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.Usuarios_Alta.resources
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\bin\Debug\Capa de Datos.dll
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\bin\Debug\Capa de Negocio.dll
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\bin\Debug\Capa Entidad.dll
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\bin\Debug\Capa de Datos.pdb
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\bin\Debug\Capa de Negocio.pdb
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\bin\Debug\Capa Entidad.pdb
+C:\Users\Usuario\source\repos\SistemaFabrizzi\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete

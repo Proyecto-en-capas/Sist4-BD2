@@ -7,8 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Data.SqlClient;
 using System.Windows.Forms;
+using Capa_de_Negocio;
+using Capa_Entidad;
 
-namespace Fabrizzi_TP_Integrador
+namespace Presentacion
 {
     public partial class RolesListado : Form
     {

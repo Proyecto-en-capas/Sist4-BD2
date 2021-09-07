@@ -1,6 +1,4 @@
-﻿using Capa_Entidad;
-using Capa_de_Negocio;
-
+﻿
 namespace Presentacion
 {
    public partial class UsuariosListado
