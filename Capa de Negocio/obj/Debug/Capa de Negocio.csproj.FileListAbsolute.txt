@@ -13,3 +13,10 @@ C:\Users\Usuario\Desktop\SistemaFabrizzi\Capa de Negocio\obj\Debug\Capa de Negoc
 C:\Users\Usuario\Desktop\SistemaFabrizzi\Capa de Negocio\obj\Debug\Capa de Negocio.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Desktop\SistemaFabrizzi\Capa de Negocio\obj\Debug\Capa de Negocio.dll
 C:\Users\Usuario\Desktop\SistemaFabrizzi\Capa de Negocio\obj\Debug\Capa de Negocio.pdb
+C:\Users\Usuario\Desktop\SistemaFabrizzi\Capa de Negocio\bin\Debug\Capa de Negocio.dll
+C:\Users\Usuario\Desktop\SistemaFabrizzi\Capa de Negocio\bin\Debug\Capa de Negocio.pdb
+C:\Users\Usuario\Desktop\SistemaFabrizzi\Capa de Negocio\bin\Debug\Capa de Datos.dll
+C:\Users\Usuario\Desktop\SistemaFabrizzi\Capa de Negocio\bin\Debug\Capa Entidad.dll
+C:\Users\Usuario\Desktop\SistemaFabrizzi\Capa de Negocio\bin\Debug\Capa de Datos.pdb
+C:\Users\Usuario\Desktop\SistemaFabrizzi\Capa de Negocio\bin\Debug\Capa Entidad.pdb
+C:\Users\Usuario\Desktop\SistemaFabrizzi\Capa de Negocio\obj\Debug\Capa de Negocio.csproj.CopyComplete

@@ -6,8 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Capa_de_Datos;
 using Capa_de_Negocio;
 using Capa_Entidad;
+
 
 namespace Presentacion
 {
@@ -73,6 +75,11 @@ namespace Presentacion
         private void Login_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void iconclose_Click(object sender, EventArgs e)
+        {
+            this.Close();  
         }
     }
 }
