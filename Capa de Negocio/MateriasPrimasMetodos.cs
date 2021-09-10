@@ -65,5 +65,16 @@ namespace Capa_de_Negocio
             return dt;
         }
 
-    }
+        //public DataTable ConsultaDeProveedorPorTipoMateriaPrima(String TipoMP) //metodo nuevo 9/9
+        //{ 
+        //    var sqlStr = "select Proveedores.pro_RazonSocial from Proveedores where Proveedores.pro_CUIT in(select p.pro_CUIT from Proveedores p, MateriasPrimas m where m.mpri_CUITprov = p.pro_CUIT and m.mpri_tipo = '"+ TipoMP +"';);
+        //    var da = new SqlDataAdapter(sqlStr, conectar());
+        //    var ds = new DataSet();
+        //    da.Fill(ds);
+        //    DataTable dt = ds.Tables[0];
+
+        //    return dt;
+        //}
+    } 
+    
 }

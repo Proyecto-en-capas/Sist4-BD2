@@ -218,6 +218,7 @@ namespace Presentacion
             this.button1.TabIndex = 89;
             this.button1.Text = "Cargar nuevo articulo";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // MateriasPrimas
             // 

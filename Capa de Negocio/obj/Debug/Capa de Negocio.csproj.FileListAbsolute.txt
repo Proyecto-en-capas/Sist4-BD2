@@ -9,3 +9,7 @@ C:\Users\Usuario\source\repos\SistemaFabrizzi\Capa de Negocio\bin\Debug\Capa Ent
 C:\Users\Usuario\source\repos\SistemaFabrizzi\Capa de Negocio\obj\Debug\Capa de Negocio.csproj.CopyComplete
 C:\Users\Usuario\source\repos\SistemaFabrizzi\Capa de Negocio\obj\Debug\Capa de Negocio.dll
 C:\Users\Usuario\source\repos\SistemaFabrizzi\Capa de Negocio\obj\Debug\Capa de Negocio.pdb
+C:\Users\Usuario\Desktop\SistemaFabrizzi\Capa de Negocio\obj\Debug\Capa de Negocio.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\SistemaFabrizzi\Capa de Negocio\obj\Debug\Capa de Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\SistemaFabrizzi\Capa de Negocio\obj\Debug\Capa de Negocio.dll
+C:\Users\Usuario\Desktop\SistemaFabrizzi\Capa de Negocio\obj\Debug\Capa de Negocio.pdb
